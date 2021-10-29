@@ -29,9 +29,9 @@ gunicorn wsgi:app
 ```
 
 # Contribution
-* (sayanjit082805)[https://github.com/sayanjit082805]
-* (ShreeyaaGupta)[https://github.com/ShreeyaaGupta]
-* (GuptaAyush19)[https://github.com/GuptaAyush19]
+* [sayanjit082805](https://github.com/sayanjit082805)
+* [ShreeyaaGupta](https://github.com/ShreeyaaGupta)
+* [GuptaAyush19](https://github.com/GuptaAyush19)
 
 # License
 This repository falls under [MIT License](https://github.com/GuptaAyush19/AuraX/blob/master/LICENSE)
