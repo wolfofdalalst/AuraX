@@ -11,4 +11,17 @@ body {
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.about-webscrap {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+pre {
+    padding: 1rem;
+    background-color:cornsilk;
 }
