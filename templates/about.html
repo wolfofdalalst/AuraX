@@ -1,2 +1,9 @@
 {% extends "base.html" %}
 {% block title %}About Page{% endblock title %}
+{% block about %}
+<div class="about-webscrap">
+
+    {{ about|safe }}
+
+</div>
+{% endblock about %}
