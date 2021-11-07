@@ -16,11 +16,7 @@ def index():
 
 @app.route('/about')
 def about():
-<<<<<<< HEAD
-    return render_template('about.html'), 200
-=======
     return render_template('about.html', about=readme()), 200
->>>>>>> 661d80d3aea57d3e813f16b5adc2db3677bae7fe
 
 @app.route("/github")
 def githubroute():
@@ -31,10 +27,8 @@ def not_found_error(error):
     return render_template('404.html'), 404
 
 @app.errorhandler(500)
-<<<<<<< HEAD
-def inernal_error():
-    return render_template('500.html'), 500
-=======
 def internal_error():
     return render_template('500.html'), 500
->>>>>>> 661d80d3aea57d3e813f16b5adc2db3677bae7fe
+
+def internal_error():
+    return render_template('500.html'), 500

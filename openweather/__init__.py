@@ -77,30 +77,3 @@ class OpenWeather:
     def icon_url(self) -> str:
         temp:dict = self.response["weather"][0]
         return f"https://openweathermap.org/img/w/{temp['icon']}"
-
-
-kolkata = OpenWeather("Paris")
-
-print(
-    kolkata.name(),
-    kolkata.coord(),
-    kolkata.weather(),
-    kolkata.main(),
-    kolkata.temperature(),
-    kolkata.feels_like(),
-    kolkata.temp_min(),
-    kolkata.temp_max(),
-    kolkata.pressure(),
-    kolkata.humidity(),
-    kolkata.wind(),
-    kolkata.visibility(),
-    kolkata.clouds(),
-    kolkata.sunrise(),
-    kolkata.sunset(),
-    kolkata.cod(),
-    kolkata.timezone(),
-    kolkata.country(),
-    kolkata.icon_url()
-)
-
-
