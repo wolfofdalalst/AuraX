@@ -20,3 +20,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+pre {
+    padding: 1rem;
+    background-color:cornsilk;
+}
