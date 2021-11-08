@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, redirect
+from flask import Flask, render_template, url_for, redirect,request
 app = Flask(__name__)
 
 def readme():
@@ -21,6 +21,11 @@ def about():
 @app.route("/github")
 def githubroute():
     return redirect("https://github.com/GuptaAyush19/AuraX")
+
+@app.route("/data")
+def get_query_string():
+    s=request.args.get('s')
+    return None
 
 @app.errorhandler(404)
 def not_found_error(error):

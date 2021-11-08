@@ -23,7 +23,10 @@ Then grab your API key from openweathermap.org/api and include it into your deve
 ## Execution
 After the packages/dependencies are installed, execute this command to host it on your local machine at `localhost:5000`
 ```
+# linux/unix (deployment)
 gunicorn wsgi:app
+# windows (production)
+python app.py
 ```
 
 ## Contribution
